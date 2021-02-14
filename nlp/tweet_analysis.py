@@ -253,10 +253,6 @@ def main():
     args = parser.parse_args()
     
     if(not args.consumer_key or not args.consumer_secret or not args.access_token or not args.access_token_secret):
-        print(args.consumer_key)
-        print(args.consumer_secret)
-        print(args.access_token)
-        print(args.access_token_secret)
         print('Not all arguments passed or are none')
         sys.exit(-1)
 
